@@ -2,7 +2,10 @@
 # 1. develop the interface
 # 2. predefined list
 # 3. instruction
-# 4. 
+# 4. check the words
+# 5. reduce the no. of turns
+# 6. generate figure
+
 import random
 def hangman():
     with open("hangmanWords.txt") as f :
